@@ -16,6 +16,4 @@ function getGitTagName(pkg) {
   )}-v${pkg.version}-${latestGitSha}`;
   return gitpkgPackageName;
 }
-
-console.log(getGitTagName({ name: 'asset-swapper', version: '1.2.3' }));
 //# sourceMappingURL=get-git-tag-name.js.map
